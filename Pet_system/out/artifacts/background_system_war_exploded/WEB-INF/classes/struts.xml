@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+
+    <!-- 配置Struts支持动态Action, 必须存在 -->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <constant name="struts.action.excludePattern" value="/static/.*?" /><!-- default locale -->
+    <constant name="struts.devMode" value="true"/>
+    <constant name="struts.multipart.maxSize" value="10000000"/>
+    <constant name="struts.multipart.saveDir" value="/employee"/>
+    <constant name="struts.custom.i18n.resources" value="struts"></constant>
+
+    <include file="struts-default.xml" />
+    <package name="struts2_order" extends="struts-default"  >
+        <action name="orderAction_*" class="orderAction" method="{1}" >
+            <result name="success" >page/index.jsp</result>
+            <result name="search" >page/index.jsp</result>
+            <result name="serach" >page/index.jsp</result>
+            <result name="file">page/file.jsp</result>
+        </action>
+        <action name="employeeAction_*" class="employeeAction" method="{1}" >
+            <result name="success">page/file.jsp</result>
+            <result name="search">page/file.jsp</result>
+            <result name="delete">page/file.jsp</result>
+            <result name="add">page/file.jsp</result>
+        </action>
+        <action name="upload" class="UploadPicture" >
+            <interceptor-ref name="defaultStack" />
+            <interceptor-ref name="fileUpload" >
+                <param name="maximumSize">1048576</param>
+                <param name="allowedTypes">
+                    image/bmp,image/jpg,image/png,image/gif,image/jpeg
+                </param>
+            </interceptor-ref>
+            <result name="success">page/file.jsp</result>
+            <result name="error">page/index.jsp</result>
+        </action>
+    </package>
+
+    <package name="struts2_login" extends="struts-default" namespace="/login">
+        <action name="checkLogin" class="LoginAction" method="checkLogin">
+            <result name="success">../page/index.jsp</result>
+            <result name="login">../page/login.jsp</result>
+        </action>
+    </package>
+
+
+
+</struts>

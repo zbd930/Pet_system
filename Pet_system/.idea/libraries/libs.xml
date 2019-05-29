@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/commons-beanutils-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/commons-lang-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/commons-httpclient-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/ezmorph-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/gson-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/slf4j-api-1.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/slf4j-log4j12-1.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/json-lib-2.4-jdk15.jar!/" />
+      <root url="file://$PROJECT_DIR$/web/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/web/WEB-INF/lib" recursive="false" />
+  </library>
+</component>

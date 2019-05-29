@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hibernate-java8-5.0.12.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/hibernate-java8-5.0.12.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

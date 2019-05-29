@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="Bean">
+
+    <!-- 属性table 表示在数据库中的表名  -->
+    <class name="employee" table="employee">
+        <id name="ID"  type="int">
+            <generator class="native"></generator>  <!-- id(主键)的生成规则 -->
+        </id>
+        <property name="name" type="java.lang.String"></property>
+        <property name="age" type="java.lang.Integer"></property>
+        <property name="photo" type="java.lang.String"></property>
+    </class>
+
+
+    <class name="order" table="order_search">
+        <id name="ID" column="ID" type="int">
+            <generator class="native"></generator>  <!-- id(主键)的生成规则 -->
+        </id>
+        <property name="Contractor"></property>
+        <property name="Address" ></property>
+        <property name="Phone"></property>
+        <property name="schedule" ></property>
+        <property name="Set_category"></property>
+        <property name="order_date"></property>
+    </class>
+
+</hibernate-mapping>

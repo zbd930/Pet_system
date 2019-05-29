@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="libs (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/background_system/web/libs/commons-beanutils-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/libs/commons-fileupload-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/libs/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/libs/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/libs/commons-logging-1.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/libs/freemarker-2.3.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/libs/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/libs/log4j-api-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/libs/ognl-3.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/libs/struts2-core-2.5.jar!/" />
+      <root url="file://$PROJECT_DIR$/background_system/web/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/background_system/web/WEB-INF/lib" recursive="false" />
+  </library>
+</component>

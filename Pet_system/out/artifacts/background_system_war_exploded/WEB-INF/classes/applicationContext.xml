@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+    <!--Action-->
+        <bean name="employeeAction" class="action.employeeAction">
+            <property name="employeeservice" ref="employeeservice"></property>
+            <property name="employee" ref="employee"></property>
+        </bean>
+        <bean name="orderAction" class="action.orderAction">
+            <property name="orderService" ref="orderService"/>
+            <property name="orderServiceImpl_options" ref="orderServiceImpl_options"/>
+        </bean>
+        <bean name="LoginAction" class="action.LoginAction">
+        </bean>
+        <bean name="UploadPicture" class="action.UploadPicture">
+        </bean>
+
+    <!--Service-->
+        <bean id="employeeservice" class="Service.employeeservice">
+            <property name="DAO" ref="DAOImpl"></property>
+        </bean>
+        <bean id="orderService" class="Service.orderServiceImpl">
+            <property name="DAO" ref="DAOImpl"></property>
+        </bean>
+        <bean id="orderServiceImpl_options" class="Service.orderServiceImpl_options">
+            <property name="DAOImpl_options" ref="DAOImpl_options"></property>
+        </bean>
+
+    <!--DAO-->
+        <bean id="DAOImpl" class="Dao.DAOImpl"/>
+        <bean id="DAOImpl_options" class="Dao.DAOImpl_options"/>
+
+    <!--Bean-->
+     <bean id="employee" class="Bean.employee"/>
+
+</beans>

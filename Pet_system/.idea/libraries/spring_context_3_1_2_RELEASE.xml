@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="spring-context-3.1.2.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/spring-context-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/spring-jdbc-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/spring-web-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/spring-core-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/spring-beans-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/spring-tx-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/spring-asm-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/spring-orm-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/spring-aop-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/spring-expression-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/ojdbc14-10.2.0.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/struts2-convention-plugin-2.3.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/struts2-config-browser-plugin-2.3.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/struts2-core-2.3.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/struts2-spring-plugin-2.3.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/xwork-core-2.3.16.jar!/" />
+      <root url="file://$PROJECT_DIR$/background_system/web/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/background_system/web/WEB-INF/lib/tools.jar!/" />
+      <root url="file://$PROJECT_DIR$/background_system/web/WEB-INF/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/background_system/web/WEB-INF/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/background_system/web/WEB-INF/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
